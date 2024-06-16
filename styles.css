@@ -1,0 +1,114 @@
+/*eiquetas para modicar, no se te olvide y recodar para que sirve cada una*/
+/*tonto*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 22%; /* Ajusta el tamaño de los productos */
+    text-align: center;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    height: 150px; /* Ajusta la altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsión */
+    border-bottom: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea, form button {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 22%; /* Ajusta el tamaño de los productos */
+    text-align: center;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    transition: transform 0.3s ease; /* Aplica una transición suave */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Aumenta el tamaño */
+}
+.social-links a {
+    color: white; /* Color de los enlaces de las redes sociales */
+}
+
+footer .contacto {
+    margin-top: 10px;
+}
+
+footer .redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .redes-sociales img {
+    width: 30px; /* Tamaño de las imágenes de las redes sociales */
+    height: 30px;
+}

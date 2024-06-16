@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - DIAMOND Fabrics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+        </ul>
+    </nav>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="mailto:correo@dominio.com" method="post" enctype="text/plain">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p></p>
+        <div class="social-links">
+            <a href="https://api.whatsapp.com/send?phone=5555555555" target="_blank">WhatsApp</a>
+            <a href="https://www.facebook.com/tu_pagina" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/tu_cuenta" target="_blank">Instagram</a>
+        </div>
+    </section>
+</body>
+</html>
